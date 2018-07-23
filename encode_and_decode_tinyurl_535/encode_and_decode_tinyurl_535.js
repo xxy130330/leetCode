@@ -1,12 +1,14 @@
 var longUrl = "http://www.leetcode.com/faq/?id=10";
 var storage = [];
+var pair = {};
+pair.shortUrl;
+pair.longUrl;
 
 encode(longUrl);
 
 
 
 function encode (inputUrl){
-  var pair = {};
   var flag = true;
   // console.log(checkStorage());
   // if(checkStorage(storage, longUrl)){
